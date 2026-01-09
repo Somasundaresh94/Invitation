@@ -2,16 +2,16 @@
 
 body{
   font-family:'Noto Serif Tamil',serif;
-  background:#f7f1e3;
+  background:#f0ab0c;
   color:#4a2c1a;
 }
 
 /* Loader */
 #loader{
   position:fixed;inset:0;
-  background:radial-gradient(circle,#f5deb3,#e6c27a);
+  background:radial-gradient(circle,#e6c27a,#ffae01);
   display:flex;align-items:center;justify-content:center;
-  z-index:999;
+  z-index:799;
   text-align:center;
   cursor:pointer;
 }
@@ -28,7 +28,7 @@ body{
 /* Hearts */
 #hearts span{
   position:fixed;
-  color:#d4af37;
+  color:#d43737;
   font-size:18px;
   animation:float 10s linear infinite;
 }
